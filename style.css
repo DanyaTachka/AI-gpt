@@ -1,0 +1,182 @@
+/* Сброс стандартных отступов */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+
+/* Основной стиль страницы */
+body{
+background:#0a0a0a; /* чёрный фон */
+color:white;
+line-height:1.6;
+}
+
+
+/* HEADER */
+
+header{
+background:#140019; /* тёмно фиолетовый */
+padding:20px;
+text-align:center;
+border-bottom:2px solid #7a00ff;
+}
+
+
+/* Список навигации */
+nav ul{
+display:flex;
+justify-content:center;
+gap:25px;
+list-style:none;
+margin-top:10px;
+}
+
+
+/* Ссылки меню */
+nav a{
+color:#d9b3ff;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+/* Эффект при наведении */
+nav a:hover{
+color:#a200ff;
+}
+
+
+/* MAIN */
+
+main{
+max-width:1000px;
+margin:auto;
+padding:30px;
+}
+
+
+/* Отступ между разделами */
+section{
+margin-bottom:50px;
+}
+
+.about-img{
+width: 200px;
+max-width:500px;
+border-radius:10px;
+margin:15px 0;
+}
+
+/* Блок карточек */
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+
+/* Карточка функции */
+article{
+background:#1a001f;
+padding:20px;
+border-radius:10px;
+flex:1;
+min-width:200px;
+border:1px solid #5c00b3;
+transition:0.3s;
+}
+
+
+/* Анимация карточки */
+article:hover{
+transform:translateY(-5px);
+border-color:#a200ff;
+}
+
+
+/* Кнопка скачивания */
+
+.button{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#7a00ff;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+
+/* Эффект кнопки */
+.button:hover{
+background:#a200ff;
+}
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#140019;
+border-top:2px solid #7a00ff;
+}
+/* Блок комментариев */
+
+.comments{
+margin-top:40px;
+background:#1a001f;
+padding:25px;
+border-radius:10px;
+border:1px solid #5c00b3;
+}
+
+
+/* Поля формы */
+
+form{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:15px;
+}
+
+
+input, textarea{
+padding:10px;
+border-radius:6px;
+border:1px solid #7a00ff;
+background:#0a0a0a;
+color:white;
+}
+
+
+textarea{
+min-height:120px;
+resize:vertical;
+}
+
+
+/* Кнопка отправки */
+
+button{
+margin-top:10px;
+padding:10px;
+background:#7a00ff;
+border:none;
+color:white;
+border-radius:6px;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+button:hover{
+background:#a200ff;
+}
